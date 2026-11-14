@@ -1,0 +1,7 @@
+local combat = window:CreateTab({ name = "Combat", icon = 93364949241311 })
+
+local movement = window:CreateTab({ name = "Movement", icon = 93364949241311 })
+
+local player = window:CreateTab({ name = "Player", icon = 93364949241311 })
+
+local visuals = window:CreateTab({ name = "Visuals", icon = 93364949241311 })
