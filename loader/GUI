@@ -5,9 +5,9 @@ local window = Rayfield:CreateWindow({
     sidebarLayout = true,
     theme = "cobalt",
     configuration = {
-        autoSave = true,      -- save on change
-        autoLoad = true,      -- load on first open
+        autoSave = true,      
+        autoLoad = true,      
         fileName = "config.lh",
-        customFolder = "LimoHib", -- optional
+        customFolder = "LimoHib", 
     },
 })
