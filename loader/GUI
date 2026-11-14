@@ -1,0 +1,8 @@
+
+local window = Rayfield:CreateWindow({
+    name = "LimoHub",
+    subtitle = "Beta",
+    sidebarLayout = true,
+    theme = "cobalt",
+    configuration = { autoSave = true, autoLoad = true, fileName = "LimoHub" }
+})
