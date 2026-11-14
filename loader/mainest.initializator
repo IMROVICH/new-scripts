@@ -1,1 +1,15 @@
+local Rayfield = loadstring(game:HttpGet("https://sirius.menu/gen2"))()
+
+local window = Rayfield:CreateWindow({
+    name = "LimoHub",
+    subtitle = "Beta",
+    sidebarLayout = true,
+    theme = "cobalt",
+    configuration = {
+        autoSave = true,      
+        autoLoad = true,      
+        fileName = "config.lh",
+        customFolder = "LimoHib", 
+    },
+})
 
