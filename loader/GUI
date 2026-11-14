@@ -4,5 +4,10 @@ local window = Rayfield:CreateWindow({
     subtitle = "Beta",
     sidebarLayout = true,
     theme = "cobalt",
-    configuration = { autoSave = true, autoLoad = true, fileName = "LimoHub" }
+    configuration = {
+        autoSave = true,      -- save on change
+        autoLoad = true,      -- load on first open
+        fileName = "config.lh",
+        customFolder = "LimoHib", -- optional
+    },
 })
